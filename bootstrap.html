@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Bootstrap</title>
+</head>
+
+<body>
+    <div class="container">
+        <h1>Hello</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium itaque quaerat accusamus, pariatur sed
+            aut reprehenderit quod maxime ducimus, dolor voluptatibus nihil, doloribus facilis iste nemo provident fugit
+            ea in.</p>
+        <div class="row table__first">
+            <div class="col-md table__first_item">
+                One of three columns
+            </div>
+            <div class="col-md table__first_item">
+                One of three columns
+            </div>
+            <div class="col-md table__first_item">
+                One of three columns
+            </div>
+        </div>
+        <br>
+        <div class="row table__second">
+            <div class="col-sm table__second_item">
+                One of three columns
+            </div>
+            <div class="col-sm table__second_item">
+                One of three columns
+            </div>
+            <div class="col-sm table__second_item">
+                One of three columns
+            </div>
+        </div>
+        <br>
+        <div class="row table__third">
+            <div class="col table__third_item">Column</div>
+            <div class="col table__third_item">Column</div>
+            <div class="w-50 table__third_item"></div>
+            <div class="col table__third_item">Column</div>
+            <div class="col table__third_item">Column</div>
+        </div>
+
+        <br>
+
+        <div class="row table__fourth">
+            <div class="col table__fourth_item">
+                1 of 3
+            </div>
+            <div class="col-6 table__fourth_item">
+                2 of 3 (wider)
+            </div>
+            <div class="col table__fourth_item">
+                3 of 3
+            </div>
+        </div>
+
+        <br>
+
+        <div class="row table__fifth">
+            <div class="col table__fifth_item">
+                1 of 3
+            </div>
+            <div class="col-2 table__fifth_item">
+                2 of 3 (thin)
+            </div>
+            <div class="col table__fifth_item">
+                3 of 3
+            </div>
+        </div>
+        <br>
+        <div class="row table__sixth">
+            <div class="col-8 table__sixth_item">col-8</div>
+            <div class="col-4 table__sixth_item">col-4</div>
+        </div>
+        <br>
+        <div class="row table__first">
+            <div class="col-sm-8 table__first_item">col-sm-8</div>
+            <div class="col-sm-4 table__first_item">col-sm-4</div>
+        </div>
+        <br>
+        <!-- Stack the columns on mobile by making one full-width and the other half-width -->
+        <div class="row table__second">
+            <div class="col-12 col-md-8 table__second_item">.col-12 .col-md-8</div>
+            <div class="col-6 col-md-4 table__second_item">.col-6 .col-md-4</div>
+        </div>
+        <br>
+        <!-- Columns start at 50% wide on mobile and bump up to 33.3% wide on desktop -->
+        <div class="row table__third">
+            <div class="col-6 col-md-4 table__third_item">.col-6 .col-md-4</div>
+            <div class="col-6 col-md-4 table__third_item">.col-6 .col-md-4</div>
+            <div class="col-6 col-md-4 table__third_item">.col-6 .col-md-4</div>
+        </div>
+        <br>
+        <!-- Columns are always 50% wide, on mobile and desktop -->
+        <div class="row table__fourth">
+            <div class="col-6 table__fourth_item">.col-6</div>
+            <div class="col-6 table__fourth_item">.col-6</div>
+        </div>
+        <br>
+        <!-- justify-content -->
+        <div class="container table__alignments">
+            <div class="row align-items-start">
+                <div class="col-md">
+                    One of three columns
+                </div>
+                <div class="col-md">
+                    One of three columns
+                </div>
+                <div class="col-md">
+                    One of three columns
+                </div>
+            </div>
+            <br>
+            <div class="row align-items-center ">
+                <div class="col-sm">
+                    One of three columns
+                </div>
+                <div class="col-sm">
+                    One of three columns
+                </div>
+                <div class="col-sm">
+                    One of three columns
+                </div>
+            </div>
+            <br>
+            <div class="row align-items-end">
+                <div class="col-md align-self-start">
+                    One of three columns
+                </div>
+                <div class="col-sm align-self-center">
+                    One of three columns
+                </div>
+                <div class="col">
+                    One of three columns
+                </div>
+            </div>
+            <br>
+            <div class="row align-items-end">
+                <div class="col-md ">
+                    One of three columns
+                </div>
+                <div class="col-sm align-self-center">
+                    One of three columns
+                </div>
+                <div class="col-lg align-self-start">
+                    One of three columns
+                </div>
+            </div>
+        </div>
+        <br>
+        <!-- justify-content -->
+        <div class="container table__justifier">
+            <div class="row justify-content-start table__justify">
+                <div class="col-4">
+                    One of two columns
+                </div>
+                <div class="col-4">
+                    One of two columns
+                </div>
+            </div>
+            <br>
+            <div class="row justify-content-center table__justify">
+                <div class="col-4">
+                    One of two columns
+                </div>
+                <div class="col-4">
+                    One of two columns
+                </div>
+            </div>
+            <br>
+            <div class="row justify-content-end table__justify">
+                <div class="col-4">
+                    One of two columns
+                </div>
+                <div class="col-4">
+                    One of two columns
+                </div>
+            </div>
+            <br>
+            <div class="row justify-content-around table__justify">
+                <div class="col-4">
+                    One of two columns
+                </div>
+                <div class="col-4">
+                    One of two columns
+                </div>
+            </div>
+            <br>
+            <div class="row justify-content-between table__justify">
+                <div class="col-4">
+                    One of two columns
+                </div>
+                <div class="col-4">
+                    One of two columns
+                </div>
+            </div>
+            <br>
+            <!-- Order -->
+            <!-- order-1(1-12), order-first, order-last -->
+            <div class="row table__sixth">
+                <div class="col-6 col-sm-3 table__sixth_item order-12">.col-6 .col-sm-3 first</div>
+                <div class="col-6 col-sm-3 table__sixth_item order-5">.col-6 .col-sm-3 second</div>
+
+                <!-- Force next columns to break to new line at md breakpoint and up -->
+                <div class="w-100 d-none d-md-block order-6"></div>
+
+                <div class="col-6 col-sm-3 table__sixth_item order-1">.col-6 .col-sm-3 third</div>
+                <div class="col-6 col-sm-3 table__sixth_item order-8">.col-6 .col-sm-3 fourth</div>
+            </div>
+            <br>
+            <div class="row table__first">
+                <div class="col-sm-5 col-md-6 table__second_item">.col-sm-5 .col-md-6</div>
+                <div class="col-sm-5 offset-sm-2 col-md-6 offset-md-0 table__second_item">.col-sm-5 .offset-sm-2
+                    .col-md-6 .offset-md-0</div>
+            </div>
+            <br>
+            <div class="row table__sixth">
+                <div class="col-md-4 table__sixth_item">.col-md-4</div>
+                <div class="col-md-4 offset-md-4 table__sixth_item">.col-md-4 .offset-md-4</div>
+            </div>
+            <div class="row table__sixth">
+                <div class="col-md-3 offset-md-3 table__sixth_item">.col-md-3 .offset-md-3</div>
+                <div class="col-md-3 offset-md-3 table__sixth_item">.col-md-3 .offset-md-3</div>
+            </div>
+            <div class="row table__sixth">
+                <div class="col-md-6 offset-md-3 table__sixth_item">.col-md-6 .offset-md-3</div>
+            </div>
+            <br>
+            <div class="row table__tenth">
+                <div class="col-sm-9 table__tenth_item">
+                    Level 1: .col-sm-9
+                    <div class="row table__tenFirst">
+                        <div class="col-8 col-sm-6 table__tenFirst_item">
+                            Level 2: .col-8 .col-sm-6
+                        </div>
+                        <div class="col-4 col-sm-6 table__tenFirst_item">
+                            Level 2: .col-4 .col-sm-6
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/app.js"></script>
+</body>
+
+</html>

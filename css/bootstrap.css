@@ -1,0 +1,121 @@
+.table__first {
+  text-align: center;
+}
+
+.table__first_item {
+  background-color: #ffb9b9;
+  border: 1px solid #000;
+}
+
+.table__first_item:last-child {
+  border-right: 1px solid #000;
+}
+
+@media (min-width: 768px) {
+  .table__first_item {
+    border-right: none;
+  }
+}
+
+.table__second_item {
+  background-color: #fae466;
+  border: 1px solid #000;
+}
+
+.table__third_item {
+  background-color: #ccff6e;
+  border: 1px solid #000;
+}
+
+.w-50.table__third_item {
+  background-color: #ccff6e;
+  border: 1px solid #000;
+}
+
+.table__fourth_item {
+  background-color: #7aff6e;
+  border: 1px solid #000;
+}
+
+.table__fifth_item {
+  background-color: #6effc7;
+  border: 1px solid #000;
+}
+
+.table__sixth_item {
+  background-color: #6eb2ff;
+  border: 1px solid #000;
+}
+
+.table__alignments {
+  background-color: #d1d1d1;
+}
+
+.table__alignments .row {
+  min-height: 180px;
+  background-color: #ff00001a;
+  padding: 15px;
+  background-color: #ff00001a;
+  border: 1px solid #000;
+}
+
+.table__alignments .row .col,
+.table__alignments .row .col-sm,
+.table__alignments .row .col-md,
+.table__alignments .row .col-lg,
+.table__alignments .row .col-xl {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background-color: #76b8dfe3;
+  border: 1px solid #000;
+}
+
+.container .table__justifier {
+  background-color: #d6d6d6;
+}
+
+.container .table__justifier .table__sixth_item {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+}
+
+.table__justify {
+  background-color: #6effc7;
+  border: none solid #000;
+}
+
+.table__justify div,
+.table__justify .col,
+.table__justify .col-sm,
+.table__justify .col-md,
+.table__justify .col-lg,
+.table__justify .col-xl {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background-color: #76b8dfe3;
+  border: 1px solid #000;
+}
+
+.table__tenth {
+  background-color: #996eff;
+  border: none solid #000;
+}
+
+.table__tenth_item {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background-color: #76b8dfe3;
+  border: 1px solid #000;
+}
+
+.table__tenth .table__tenFirst {
+  background-color: #b193cc;
+}
+
+.table__tenth .table__tenFirst_item {
+  padding-top: 0.75rem;
+  padding-bottom: 0.75rem;
+  background-color: #ce76dfe3;
+  border: 1px solid #000;
+}
+/*# sourceMappingURL=bootstrap.css.map */

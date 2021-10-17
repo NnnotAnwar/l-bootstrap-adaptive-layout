@@ -1,0 +1,104 @@
+@mixin bgc($color, $border) {
+    background-color: $color;
+    border: $border solid #000;
+}
+
+@mixin col($bgc, $border) {
+    padding-top: 0.75rem;
+    padding-bottom: 0.75rem;
+    background-color: $bgc;
+    border: $border solid #000;
+}
+
+.table__first {
+    text-align: center;
+    &_item {
+        @include bgc(#ffb9b9, 1px);
+        &:last-child {
+            border-right: 1px solid #000;
+        }
+    }
+}
+@media (min-width: 768px) {
+    .table__first_item {
+        border-right: none;
+    }
+}
+
+.table__second_item {
+    @include bgc(#fae466, 1px);
+}
+
+.table__third_item {
+    @include bgc(#ccff6e, 1px);
+}
+
+.w-50 {
+    &.table__third_item {
+        @include bgc(#ccff6e, 1px);
+    }
+}
+
+.table__fourth_item {
+    @include bgc(#7aff6e, 1px);
+}
+
+.table__fifth_item {
+    @include bgc(#6effc7, 1px);
+}
+
+.table__sixth_item {
+    @include bgc(#6eb2ff, 1px);
+}
+.table__alignments {
+    background-color: rgb(209, 209, 209);
+    .row {
+        min-height: 180px;
+        background-color: #ff00001a;
+        padding: 15px;
+        @include bgc(#ff00001a, 1px);
+        .col,
+        .col-sm,
+        .col-md,
+        .col-lg,
+        .col-xl {
+            @include col(#76b8dfe3, 1px);
+        }
+    }
+}
+
+.container {
+    .table__justifier {
+        background-color: #d6d6d6;
+        .table__sixth_item {
+            padding-top: 0.75rem;
+            padding-bottom: 0.75rem;
+        }
+    }
+}
+
+.table__justify {
+    @include bgc(#6effc7, none);
+
+    div,
+    .col,
+    .col-sm,
+    .col-md,
+    .col-lg,
+    .col-xl {
+        @include col(#76b8dfe3, 1px);
+    }
+}
+
+.table__tenth {
+    @include bgc(#996eff, none);
+    &_item {
+        @include col(#76b8dfe3, 1px);
+    }
+    .table__tenFirst {
+        background-color: rgb(177, 147, 204);
+        &_item {
+            @include col(#ce76dfe3, 1px);
+        }
+    }
+}
