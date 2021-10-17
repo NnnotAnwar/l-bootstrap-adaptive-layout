@@ -1,6 +1,14 @@
 @import "bootstrap.scss";
 @import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@400;700&family=Ubuntu&display=swap");
 
+html {
+    min-height: 100%;
+}
+body {
+    font-size: 14px;
+    font-family: "Roboto Mono", monospace;
+    min-height: 100%;
+}
 ul {
     text-decoration: none;
     margin: 0;
@@ -8,11 +16,6 @@ ul {
     &:after:before {
         display: none;
     }
-}
-
-body {
-    font-size: 14px;
-    font-family: "Roboto Mono", monospace;
 }
 
 nav {
@@ -50,10 +53,17 @@ nav {
         }
     }
     .navbar-nav > .dropdown > .dropdown-menu {
-        background-color: #fff;
+        background-color: #494f55;
         font-size: 14px;
+        left: -58%;
+        .dropdown-item {
+            color: #fff;
+            &:hover {
+                background-color: #393d42;
+            }
+        }
         .dropdown-divider {
-            border-color: #747474;
+            border-color: #fff;
         }
         @media (max-width: 576px) {
             .dropdown-item {
@@ -68,10 +78,8 @@ nav {
     }
 }
 
-@media (max-width: 576px) {
-    .dropdown-toggler {
-        margin-right: -10px;
-    }
+.nav-link {
+    border-radius: 0.25rem;
 }
 
 .main-wrap {
@@ -191,8 +199,7 @@ nav {
 .partners_wrap {
     background-color: #bdabfd;
     text-align: center;
-    padding-top: 15px;
-    padding-bottom: 30px;
+    padding: 30px 0;
 }
 
 .partners_wrap > .container > .row > div {
@@ -210,6 +217,7 @@ nav {
         text-align: center;
         font-size: 28px;
         color: #fff;
+        padding: 15px;
         &:hover {
             color: #ff5656;
         }
